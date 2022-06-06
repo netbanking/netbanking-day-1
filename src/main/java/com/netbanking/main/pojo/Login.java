@@ -2,7 +2,7 @@ package com.netbanking.main.pojo;
 
 public class Login {
 	
-	private String userID;
+	private String userId;
 	private String password;
 	private String role;
 	
@@ -10,19 +10,19 @@ public class Login {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Login(String userID, String password, String role) {
+	public Login(String userId, String password, String role) {
 		super();
-		this.userID = userID;
+		this.userId = userId;
 		this.password = password;
 		this.role = role;
 	}
 
-	public String getUserID() {
-		return userID;
+	public String getUserId() {
+		return userId;
 	}
 
-	public void setUserID(String userID) {
-		this.userID = userID;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 	public String getPassword() {
@@ -43,7 +43,7 @@ public class Login {
 
 	@Override
 	public String toString() {
-		return "Login [userID=" + userID + ", password=" + password + ", role=" + role + "]";
+		return "Login [userId=" + userId + ", password=" + password + ", role=" + role + "]";
 	}
 	
 	
